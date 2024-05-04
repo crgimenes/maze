@@ -6,7 +6,9 @@ Golang maze generator in text mode, inspired by the old BASIC code
 10 PRINT CHR$(205.5+RND(1)); : GOTO 10
 ```
 
-Best viewed with the [IBM 3270 font maintained by Ricardo Bánffy](https://github.com/rbanffy/3270font)
+```lua
+::_10:: io.write(math.random() < 0.5 and "/" or "\\"); goto _10
+```
 
 ![maze](maze.png)
 
